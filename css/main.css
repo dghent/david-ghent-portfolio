@@ -58,6 +58,27 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#flex-container {
+  display: flex;
+}
+
+#content {
+  width: 50%;
+  padding: 48px 48px 0 48px;
+  /*background-color: red;*/
+}
+
+#photo {
+  overflow-x: hidden;
+  /*height: auto;*/
+  background-color: black;
+}
+
+#case-study {
+  width: 100%;
+  background-color: pink;
+}
+
 h1 {
   font-weight: 600;
   font-size: 72px;
@@ -89,8 +110,9 @@ a:hover {
   color: #229FE9;
 }
 
+
+/* FADE IN */
 body {
-  padding: 48px;
   -webkit-animation: backgroundfade 1s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: backgroundfade 1s; /* Firefox < 16 */
       -ms-animation: backgroundfade 1s; /* Internet Explorer */
@@ -128,6 +150,15 @@ body {
 }
 
 #the-rest {
+  -webkit-animation: slowerfadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: slowerfadein 2s; /* Firefox < 16 */
+      -ms-animation: slowerfadein 2s; /* Internet Explorer */
+       -o-animation: slowerfadein 2s; /* Opera < 12.1 */
+          animation: slowerfadein 2s;
+          animation-timing-function: ease-in-out;
+}
+
+#photo {
   -webkit-animation: slowerfadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: slowerfadein 2s; /* Firefox < 16 */
       -ms-animation: slowerfadein 2s; /* Internet Explorer */
@@ -185,7 +216,7 @@ to   { opacity: 1; }
 /*DESKTOP*/
 @media screen and (min-width: 1200px) {
   body {
-    width: 85%;
+    /*width: 85%;*/
   }
   h1 {
     width: 75%;
@@ -197,7 +228,7 @@ to   { opacity: 1; }
 /*MID*/
 @media screen and (max-width: 1200px) {
   body {
-    width: 90%;
+    /*width: 90%;*/
   }
   h1 {
     font-size: 80px;
@@ -208,11 +239,14 @@ to   { opacity: 1; }
 /*TABLET*/
 @media screen and (max-width: 1000px) {
   body {
-    width: 80%;
+    /*width: 80%;*/
   }
   h1 {
     font-size: 80px;
     line-height: 96px;
+  }
+  #photo {
+    display: none;
   }
 }
 
