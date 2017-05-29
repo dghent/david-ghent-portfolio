@@ -54,7 +54,7 @@ body {
   font-feature-settings: "kern", "liga", "frac", "pnum";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #373737  ;
+  color: #0e2f43;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -64,38 +64,87 @@ body {
 
 #content {
   width: 50%;
-  padding: 48px 48px 0 48px;
+  padding: 104px 48px 104px 48px;
   /*background-color: red;*/
 }
 
+#headliner {
+  padding: 24px 0 24px 0;
+}
+
+#work-links {
+  padding: 24px 0 24px 0;
+}
+
+#the-rest {
+  padding: 24px 0 24px 0;
+}
+
 #photo {
+  width: 50%;
   overflow-x: hidden;
-  /*height: auto;*/
   background-color: black;
+  position: relative;
+  z-index: 100;
 }
 
 #case-study {
-  width: 100%;
-  background-color: pink;
+  width: 50%;
+  padding: 104px 48px 104px 48px;
+  background-color: #f7fcff;
 }
 
-h1 {
+#case-study img {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#right-side {
+  width: 50%;
+  /*background-color: #73CBFF;*/
+}
+
+.back-to-top {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+}
+
+/* TYPOGRAPHY */
+/* most sizing is in media queries though */
+.headline {
   font-weight: 600;
-  font-size: 72px;
+  font-size: 96px;
   line-height: 96px;
   margin-bottom: 16px;
 }
 
-#headline h1 {
+#headliner {
   font-family: 'Lora', serif;
+}
+
+#work-links a {
+  font-weight: 100;
+  font-size: 84px;
+  line-height: 96px;
+  margin-bottom: 16px;
+}
+
+.case-title {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.case-intro {
+  padding-top: 24px;
 }
 
 p {
   margin-bottom: 24px;
-}
-
-h1 a,h2 a,h3 a {
-  font-weight: 100;
+  line-height: 32px;
+  font-size: 20px;
 }
 
 a {
@@ -108,6 +157,10 @@ a {
 
 a:hover {
   color: #229FE9;
+}
+
+.byline {
+  font-size: 14px;
 }
 
 
@@ -130,7 +183,7 @@ body {
           animation-timing-function: ease-in-out;
 }
 
-#headline {
+#headliner {
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 1s; /* Firefox < 16 */
       -ms-animation: fadein 1s; /* Internet Explorer */
@@ -140,7 +193,6 @@ body {
 }
 
 #work-links {
-  margin: 32px 0 32px 0;
   -webkit-animation: slowerfadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: slowerfadein 1.5s; /* Firefox < 16 */
       -ms-animation: slowerfadein 1.5s; /* Internet Explorer */
@@ -165,6 +217,28 @@ body {
        -o-animation: slowerfadein 2s; /* Opera < 12.1 */
           animation: slowerfadein 2s;
           animation-timing-function: ease-in-out;
+}
+
+#case-study {
+  -webkit-animation: slowerfadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: slowerfadein 3s; /* Firefox < 16 */
+      -ms-animation: slowerfadein 3s; /* Internet Explorer */
+       -o-animation: slowerfadein 3s; /* Opera < 12.1 */
+          animation: slowerfadein 3s;
+          animation-timing-function: ease-in-out;
+}
+
+.back-to-top {
+  -webkit-animation: slowerfadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: slowerfadein 3s; /* Firefox < 16 */
+      -ms-animation: slowerfadein 3s; /* Internet Explorer */
+       -o-animation: slowerfadein 3s; /* Opera < 12.1 */
+          animation: slowerfadein 3s;
+          animation-timing-function: ease-in-out;
+}
+
+.italic {
+  font-style: italic;
 }
 
 @keyframes backgroundfade {
@@ -218,7 +292,7 @@ to   { opacity: 1; }
   body {
     /*width: 85%;*/
   }
-  h1 {
+  .headline {
     width: 75%;
     font-size: 96px;
     line-height: 114px;
@@ -230,7 +304,7 @@ to   { opacity: 1; }
   body {
     /*width: 90%;*/
   }
-  h1 {
+  .headline {
     font-size: 80px;
     line-height: 96px;
   }
@@ -241,7 +315,7 @@ to   { opacity: 1; }
   body {
     /*width: 80%;*/
   }
-  h1 {
+  .headline {
     font-size: 80px;
     line-height: 96px;
   }
@@ -252,7 +326,7 @@ to   { opacity: 1; }
 
 /*PHONE*/
 @media screen and (max-width: 800px) {
-  h1 {
+  .headline {
     font-size: 48px;
     line-height: 56px;
   }

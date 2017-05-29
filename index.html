@@ -15,33 +15,63 @@
 <div id="flex-container">
 	<section id="content">
 		<section id="title">
-			<p>David Ghent, Digital Product Designer</p>
+			<span class="byline">David Ghent, Digital Product Designer</span>
 		</section>
 
-		<section id="headline">
-			<h1>I create simple, yet effective digital experiences.</h1>
+		<section id="headliner">
+			<span class="headline">I create simple, yet effective digital experiences.</span>
 		</section>
 
 		<section id="work-links">
-			<h1>
-				<a href="#" target="_blank">case studies</a><br/>
+				<a href="https://www.behance.net/davidghent" target="_blank">behance</a><br/>
 				<a href="https://dribbble.com/daveghent" target="_blank">dribbble</a><br/>
 				<a href="https://www.linkedin.com/in/davidghent/" target="_blank">linkedin</a><br/>
 				<a href="https://medium.com/product-labs/3-tips-for-better-visual-design-on-an-agile-team-ae4a2a712914#.sar3pqm2v" target="_blank">medium</a>
-			</h1>
 		</section>
 
 		<section id="the-rest">
-			<p>Want to know more? Say <a href="mailto:dhghent@gmail.com">[hello]</a>.</p>
+			<span class="byline">Want to know more? Say <a href="mailto:dhghent@gmail.com">[hello]</a>.
+				<br/>Or check out my latest case study below.</span>
 		</section>
 	</section><!-- end content -->
 
-	<section id="photo"><img src="SF.jpg"/></section>
+	<section id="photo"><img src="img/SF.jpg"/></section>
+
+</div><!-- end flex container -->
+
+		<div id="flex-container">
+				<section id="case-study">
+					<span class="case-title">Featured Case Study</span>
+					<p class="italic">Automated Offshore Drilling Monitoring</p>
+
+					<p class="case-intro">Chevron worked with us at Pivotal to improve the monitoring capabilities for offshore oil drilling facilities. These huge “rigs” are mainly overlooked by Real Time Operators (RTO’s) that are looking for anomolies in the data that could present any issues. A very real example would be changes in the displacement of the liquid volume that could result in dangerous outcomes. Basically, these folks are responsible if the rig blows up.</p>
+
+					<img src="img/chevron-1.png"/>
+					<!-- <span class="img-byline">A diagram of the different liquids on an offshore drilling rig</span> -->
+					<p>In the first few weeks of the project we spent some time understanding the problem space. We narrowed our focus toward solving more problems for the RTO within our MVP.</p>
+
+					<img src="img/chevron-2.png"/>
+					<p>After a number of interviews with various RTO's and more stakeholders, our team was ready to sketch out some ideas. </p>
+
+					<img src="img/chevron-3.png"/>
+					<p>Our main goal was to prioritize the most important data about the drilling run, or “trip”, to make sure the RTO was able to scan actionable information faster. We wanted to learn more about what data was relevant, when, and how often. We got to work and started rapidly prototyping (sketch+invision) to test with more RTO's.</p>
+
+					<img src="img/chevron-4.png"/>
+					<p>As each drill stand was getting attached, our interface needed to show the gain/loss data and inform the RTO's of any anomalies in their drills, fill tanks, and displacement tanks.</p>
+
+					<img src="img/chevron-5.png"/>
+					<p>To simulate the incoming data before our data scientist started to wrangle our test data into SQL, I animated a normal data flow in after effects. We continued to test both our clickable InVision prototype and simulation video to stakeholders and RTAs to get feedback. Take a look at the <a href="https://vimeo.com/219048443" target="_blank">video rendering for a simulation</a> of what the app looks like.</p>
+
+					<img src="img/chevron-6.png"/>
+					<p>We decided a layout that favored 3 main data changes: new stands coming in - each with their gain/loss data associated with them, as well as a line graph of the overall gain/loss, and cumulative gain/loss. Deviant data in any of these areas prompted the RTAs to take action.</p>
+				</section><!-- end case-study -->
+
+				<section id="right-side">
+					<div class="back-to-top"><a href="#"><img src="img/top.svg"/></a></div>
+				</section>
 </div><!-- end flex-container -->
 
-<section id="case-study">
-asdfasdf
-</section>
+
 
 </body>
 
