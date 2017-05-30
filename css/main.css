@@ -354,6 +354,9 @@ to   { opacity: 1; }
   #the-rest {
     width: auto;
   }
+  #case-study {
+    padding: 32px 16px 32px 16px;
+  }
   #case-study img {
     padding: 24px 0 24px 0;
   }
