@@ -69,7 +69,37 @@
 				</section><!-- end case-study -->
 
 				<section id="right-side">
-					<div class="back-to-top"><a href="#"><img src="img/top.svg"/></a></div>
+					<div class="back-to-top"><a href="#">
+								<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<title>top</title>
+									<defs>
+											<circle id="path-1" cx="32" cy="32" r="32"></circle>
+											<filter x="-15.6%" y="-15.6%" width="131.2%" height="131.2%" filterUnits="objectBoundingBox" id="filter-2">
+													<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+													<feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+													<feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+													<feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+													<feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+													<feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+													<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.048290308 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+											</filter>
+									</defs>
+									<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="Artboard-3" transform="translate(-2008.000000, -1507.000000)">
+													<g id="top" transform="translate(2015.000000, 1514.000000)">
+															<g id="Oval" opacity="0.3">
+																	<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+																	<use stroke="#70CAFF" stroke-width="2" xlink:href="#path-1"></use>
+															</g>
+															<polygon id="Triangle" fill="#0E2F43" points="31.5 20 35 27 28 27"></polygon>
+															<text id="TOP" font-family="OpenSans-Bold, Open Sans" font-size="10" font-weight="bold" fill="#0E2F43">
+																	<tspan x="22" y="41">TOP</tspan>
+															</text>
+													</g>
+											</g>
+									</g>
+								</svg>
+						</a></div>
 				</section>
 </div><!-- end flex-container -->
 
