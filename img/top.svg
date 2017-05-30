@@ -18,7 +18,7 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-3" transform="translate(-2008.000000, -1507.000000)">
             <g id="top" transform="translate(2015.000000, 1514.000000)">
-                <g id="Oval">
+                <g id="Oval" opacity="0.3">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <use stroke="#70CAFF" stroke-width="2" xlink:href="#path-1"></use>
                 </g>
