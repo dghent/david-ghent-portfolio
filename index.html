@@ -12,10 +12,11 @@
 </head>
 <body>
 
-<div id="flex-container">
 	<section id="content">
+
 		<section id="title">
-			<span class="byline">David Ghent, Digital Product Designer</span>
+			<span class="name">David Ghent, Digital Product Designer<br/></span>
+			<span class="email"><a href="mailto:dhghent@gmail.com">dhghent@gmail.com</a></span>
 		</section>
 
 		<section id="headliner">
@@ -25,83 +26,49 @@
 		<section id="work-links">
 				<a href="https://www.behance.net/davidghent" target="_blank">behance</a><br/>
 				<a href="https://dribbble.com/daveghent" target="_blank">dribbble</a><br/>
-				<a href="https://www.linkedin.com/in/davidghent/" target="_blank">linkedin</a><br/>
-				<a href="https://medium.com/product-labs/3-tips-for-better-visual-design-on-an-agile-team-ae4a2a712914#.sar3pqm2v" target="_blank">medium</a>
+				<a href="https://medium.com/product-labs/3-tips-for-better-visual-design-on-an-agile-team-ae4a2a712914#.sar3pqm2v" target="_blank">medium</a><br/>
+				<a href="https://www.linkedin.com/in/davidghent/" target="_blank">linkedin</a>
 		</section>
 
-		<section id="the-rest">
-			<span class="byline">Want to know more? Say <a href="mailto:dhghent@gmail.com">[hello]</a>.
-				<br/>Or check out my latest case study below.</span>
-		</section>
+		<section id="photo"><img src="img/landing-image.jpg"/></section>
+
 	</section><!-- end content -->
 
-	<section id="photo"><img src="img/SF.jpg"/></section>
-
-</div><!-- end flex container -->
-
-		<div id="flex-container">
 				<section id="case-study">
-					<span class="case-title">Featured Case Study</span>
-					<p class="italic">Realtime Drill-Site Monitoring</p>
+					<section id="case-study-header">
+						<span class="case-title">Featured Case Study</span><br/>
+						<span class="byline">Realtime Drill-Site Monitoring</span><br/>
+					</section>
 
-					<p class="case-intro">Chevron worked with us at <a href="http://www.pivotal.io" target="blank">Pivotal</a> to improve the monitoring capabilities for offshore oil drilling facilities. These huge “rigs” are mainly overlooked by Real Time Operators (RTO’s) that are looking for anomolies in the data. An example would be changes in the displacement of the volume that could result in dangerous outcomes. Basically, these folks are responsible if the rig blows up.</p>
+					<p>Chevron worked with us at <a href="http://www.pivotal.io" target="blank">Pivotal</a> to improve the monitoring capabilities for offshore oil drilling facilities. These huge “rigs” are mainly overlooked by Real Time Operators (RTO’s) that are looking for anomolies in the data. An example would be changes in the displacement of the volume that could result in dangerous outcomes. Basically, these folks are responsible if the rig blows up.</p>
 
-					<a href="img/chevron-1.png"><img src="img/chevron-1.png"/></a>
+					<img src="img/chevron-1.png"/>
 					<p>In the first few weeks of the project we worked on understanding the problem space. We decided to solve problems for the RTO's first, within the scope of our MVP.</p>
 
-					<a href="img/chevron-2.png"><img src="img/chevron-2.png"/></a>
+					<img src="img/chevron-2.png"/>
 					<p>After more context building and a number of interviews with various RTO's and more stakeholders, our team was ready to sketch out some ideas. </p>
 
-					<a href="img/chevron-3.png"><img src="img/chevron-3.png"/></a>
+					<img src="img/chevron-3.png"/>
 					<p>Our main goal was to prioritize the most important data about the drilling run, or “trip”, to make sure the RTO was able to scan actionable information faster. We wanted to learn more about what data was relevant, when, and how often. We got to work and started rapidly prototyping (sketch+invision) to test with more RTO's.</p>
 
-					<a href="img/chevron-4.png"><img src="img/chevron-4.png"/></a>
+					<img src="img/chevron-4.png"/>
 					<p>As each drill stand was getting attached, our interface needed to show the gain/loss data and inform the RTO's of any anomalies in their drills, fill tanks, and displacement tanks.</p>
 
-					<a href="img/chevron-5.png"><img src="img/chevron-5.png"/></a>
+					<img src="img/chevron-5.png"/>
 					<p>To simulate the incoming information before our data scientist could wrangle our test data into SQL, I animated a normal data flow in After Effects. We continued to test both our clickable InVision prototype and simulation video to stakeholders and RTO's to get feedback. Take a look at the <a href="https://vimeo.com/219048443" target="_blank">video rendering for a simulation</a> of what the app looks like.</p>
 
-					<a href="img/chevron-6.png"><img src="img/chevron-6.png"/></a>
+					<img src="img/chevron-6.png"/>
 					<p>We decided a layout that favored 3 main data changes: new stands coming in - each with their gain/loss data associated with them, as well as a line graph of the overall gain/loss, and cumulative gain/loss. Deviant data in any of these areas prompted the RTO's to take action.</p>
 
-					<span class="byline">Check out my <a href="https://www.behance.net/davidghent" target="_blank">behance</a> for more case studies if you'd like.
+					<div id="end">
+						<span class="case-title">Want to know more?</span><br/><br/>
+						<span class="byline">Check out my <a href="https://www.behance.net/davidghent" target="_blank">behance</a> for more case studies. Or just say <a href="mailto:dhghent@gmail.com">hello</a>.
+						<br/><br/>
+						<span class="byline"><a href="#">^ back to the top</a></span>
+					</div>
 
 				</section><!-- end case-study -->
 
-				<section id="right-side">
-					<div class="back-to-top"><a href="#">
-								<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<title>top</title>
-									<defs>
-											<circle id="path-1" cx="32" cy="32" r="32"></circle>
-											<filter x="-15.6%" y="-15.6%" width="131.2%" height="131.2%" filterUnits="objectBoundingBox" id="filter-2">
-													<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-													<feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-													<feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
-													<feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
-													<feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
-													<feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-													<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.048290308 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-											</filter>
-									</defs>
-									<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-											<g id="Artboard-3" transform="translate(-2008.000000, -1507.000000)">
-													<g id="top" transform="translate(2015.000000, 1514.000000)">
-															<g id="Oval" opacity="0.3">
-																	<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-																	<use stroke="#70CAFF" stroke-width="2" xlink:href="#path-1"></use>
-															</g>
-															<polygon id="Triangle" fill="#0E2F43" points="31.5 20 35 27 28 27"></polygon>
-															<text id="TOP" font-family="OpenSans-Bold, Open Sans" font-size="10" font-weight="bold" fill="#0E2F43">
-																	<tspan x="22" y="41">TOP</tspan>
-															</text>
-													</g>
-											</g>
-									</g>
-								</svg>
-						</a></div>
-				</section>
-</div><!-- end flex-container -->
 
 
 
