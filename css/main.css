@@ -141,28 +141,14 @@ a:hover {
   z-index: -200;
 }
 
-/* DESKTOP X-LARGE*/
-/*@media screen and (min-width: 2300px) {
-#headliner {
-    width: 1300px;
-    background-color: red;
-  }
-}*/
-/*@media screen and (max-width: 1840px) {
-#headliner {
-    padding-right: 25%;
-  }
-}*/
-/*@media screen and (min-width: 1530px) {
-#headliner {
-    width: 1000px;
-    background-color: green;
-  }
-}*/
+.footer-background {
+  background-color: #F2F2F2;
+}
+
 /* DESKTOP LARGE*/
 @media screen and (min-width: 1340px) {
-  body {
-    margin: 104px 48px 104px 148px;
+  .wrapper {
+    padding: 104px 48px 104px 148px;
   }
   #headliner {
       max-width: 1275px;
@@ -185,10 +171,11 @@ a:hover {
     padding-bottom: 280px;
   }
   #case-study-header {
-    padding-bottom: 64px;
+    margin-top: 80px;
+    padding-bottom: 8px;
   }
   p {
-    line-height: 24px;
+    line-height: 32px;
     font-size: 18px;
     font-weight: 100;
     max-width: 1075px;
@@ -197,8 +184,8 @@ a:hover {
 
 /* DESKTOP MID*/
 @media screen and (max-width: 1340px) {
-  body {
-    margin: 48px 48px 104px 48px;
+  .wrapper {
+    padding: 48px 48px 104px 48px;
   }
   .headline {
     width: 75%;
@@ -219,13 +206,14 @@ a:hover {
     width: 50%;
   }
   #case-study-header {
-    padding-bottom: 64px;
+    margin-top: 80px;
+    padding-bottom: 8px;
   }
   #case-study img {
     width: 100%;
   }
   p {
-    line-height: 24px;
+    line-height: 32px;
     font-size: 18px;
     font-weight: 100;
     max-width: 1075px;
@@ -234,8 +222,8 @@ a:hover {
 
 /*TABLET*/
 @media screen and (max-width: 750px) {
-  body {
-    margin: 48px 48px 104px 48px;
+  .wrapper {
+    padding: 48px 48px 104px 48px;
   }
   .name, .email a {
     font-size: 14px;
@@ -255,7 +243,7 @@ a:hover {
     display: none;
   }
   #case-study-header {
-    padding-bottom: 24px;
+    padding-bottom: 8px;
   }
   #case-study img {
     width: 100%;
@@ -264,8 +252,8 @@ a:hover {
 
 /* PHONE */
 @media screen and (max-width: 450px) {
-  body {
-    margin: 16px 16px 16px 16px;
+  .wrapper {
+    padding: 16px 16px 96px 16px;
   }
   .name, .email a {
     font-size: 12px;
@@ -285,11 +273,8 @@ a:hover {
   .case-title {
     font-size: 24px;
   }
-  .byline {
-    font-size: 16px;
-  }
   #case-study-header {
-    padding-bottom: 16px;
+    padding-bottom: 8px;
   }
   #case-study img {
     width: 100%;
