@@ -79,7 +79,7 @@ body {
 .name {
   font-size: 18px;
 }
-.email a {
+.email {
   color: #9fadb5;
   font-size: 18px;
 }
@@ -225,9 +225,7 @@ a:hover {
   .wrapper {
     padding: 48px 48px 104px 48px;
   }
-  .name, .email a {
-    font-size: 14px;
-  }
+
   #content {
     padding-bottom: 80px;
   }
@@ -255,9 +253,6 @@ a:hover {
   .wrapper {
     padding: 16px 16px 96px 16px;
   }
-  .name, .email a {
-    font-size: 12px;
-  }
   #content {
     padding-bottom: 64px;
   }
@@ -265,6 +260,12 @@ a:hover {
     font-size: 32px;
     line-height: 40px;
     width: 100%;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .email {
+    font-size: 14px;
   }
   #work-links a {
     font-size: 32px;
@@ -279,10 +280,10 @@ a:hover {
   #case-study img {
     width: 100%;
   }
-  p {
+  /*p {
     font-size: 18px;
     line-height: 32px;
-  }
+  }*/
 }
 
 
