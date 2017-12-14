@@ -64,7 +64,8 @@ body {
 }
 
 #title {
-  padding-bottom: 24px;
+  width: 100%;
+  position: fixed;
 }
 
 #headliner {
@@ -147,6 +148,9 @@ a:hover {
 
 /* DESKTOP LARGE*/
 @media screen and (min-width: 1340px) {
+  #title {
+    margin: 104px 48px 104px 148px;
+  }
   .wrapper {
     padding: 104px 48px 104px 148px;
   }
@@ -168,6 +172,7 @@ a:hover {
     width: 50%;
   }
   #content {
+    padding-top: 180px;
     padding-bottom: 280px;
   }
   #case-study-header {
@@ -184,6 +189,9 @@ a:hover {
 
 /* DESKTOP MID*/
 @media screen and (max-width: 1340px) {
+  #title {
+    margin: 48px 48px 104px 48px;
+  }
   .wrapper {
     padding: 48px 48px 104px 48px;
   }
@@ -193,6 +201,7 @@ a:hover {
     line-height: 124px;
   }
   #content {
+    padding-top: 108px;
     padding-bottom: 204px;
   }
   #work-links a {
@@ -222,10 +231,12 @@ a:hover {
 
 /*TABLET*/
 @media screen and (max-width: 750px) {
+  #title {
+    margin: 48px 48px 104px 48px;
+  }
   .wrapper {
     padding: 48px 48px 104px 48px;
   }
-
   #content {
     padding-bottom: 80px;
   }
@@ -250,8 +261,11 @@ a:hover {
 
 /* PHONE */
 @media screen and (max-width: 450px) {
+  #title {
+    margin: 48px 48px 104px 48px;
+  }
   .wrapper {
-    padding: 16px 16px 96px 16px;
+    padding: 48px 48px 104px 48px;
   }
   #content {
     padding-bottom: 64px;
