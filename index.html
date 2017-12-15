@@ -7,22 +7,31 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Lora" rel="stylesheet">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111252938-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-111252938-1');
+	</script>
+
+
 <title>David Ghent, Digital Product Designer</title>
 
 </head>
 
 <body>
 
-
-<section id="title">
-	<span class="name"><a href="about.html">About David</a><br/></span>
-	<span class="email">david@ghent.design</span>
-</section>
-
-
 <div class="wrapper"><!-- wrapper for content + footer -->
 
 	<section id="content">
+
+		<section id="title">
+			<span class="name">David Ghent, digital product designer</span><br/>
+			<span class="email">david@ghent.design</span>
+		</section>
 
 		<section id="headliner">
 			<span class="headline">I create beautiful functional digital experiences.</span>
@@ -38,11 +47,31 @@
 		<section id="photo"><img src="img/landing-image.jpg"/></section>
 
 	</section><!-- end content -->
+</div><!-- end wrapper -->
 
+<img src="img/david-chillin.jpg" id="about-photo"/>
+
+		<div id="about">
+		<span class="sub-title">
+			For the past few years I've been working as a product designer at Pivotal Labs in San Francisco.
+		</span>
+		<p>Recently I spent half a year helping Pivotal grow their design team in Berlin, and in the past I was in Toronto as a UX/UI designer for various companies. I’ve worked at agile consulting firms, taught a UX course at a Toronto technical college, worked for a product company that tried to make it during the iOS skeuomorphic craze, but originally got my start way back in the day at a flash game studio.
+		</p>
+		<p>
+		I also enjoying building sites to showcase some of my film photography. My first collection is from <a href="http://david-ghent-portfolio.cfapps.io/black-and-white-photos/" target="_blank">America</a>, and the second is from the time I spent in <a href="http://david-ghent-portfolio.cfapps.io/berlin-gallery/">Berlin</a>. When I'm away from the computer, I like adventuring on my <a href="https://www.instagram.com/p/BDeaxOEQqay/?taken-by=canadian.dave" target="_blank">motorcycle</a>, or in my <a href="https://www.instagram.com/p/BWoAfhVn0ti/?taken-by=canadian.dave" target="_blank">old car</a>. also really like rolling around on wheels. Check out a <a href="https://vimeo.com/108076014" target"_blank">profile</a> shot a few years ago in Toronto.
+	</p>
+	<p>
+		Want to know more? Feel free to email me, I like talking about design over coffee or tasty beers: david@ghent.design
+	</p>
+
+</div><!-- end wrapper -->
+
+<div class="wrapper">
 	<section id="case-study">
-		<section id="case-study-header">
+
+		<div id="case-study-header">
 			<span class="headline">Case Study</span><br/><br/>
-		</section>
+		</div>
 
 		<p>Chevron worked with us at <a href="http://www.pivotal.io" target="blank">Pivotal</a> to improve the monitoring capabilities for offshore oil drilling facilities. These huge “rigs” are mainly overlooked by Real Time Operators (RTO’s) that are looking for anomolies in the data. An example would be changes in the displacement of the volume that could result in dangerous outcomes. Basically, these folks are responsible if the rig blows up.</p>
 
@@ -65,15 +94,27 @@
 		<p>We decided a layout that favored 3 main data changes: new stands coming in - each with their gain/loss data associated with them, as well as a line graph of the overall gain/loss, and cumulative gain/loss. Deviant data in any of these areas prompted the RTO's to take action.</p>
 
 	</section><!-- end case-study -->
-</div><!-- end wrapper -->
 
-<div class="wrapper footer-background">
+	<div id="work-links-tablet">
+		<span class="sub-title">
+			Elsewhere:
+		</span>
+		<br/>
+			<a href="https://www.behance.net/davidghent" target="_blank">behance</a><br/>
+			<a href="https://dribbble.com/daveghent" target="_blank">dribbble</a><br/>
+			<a href="https://medium.com/product-labs/3-tips-for-better-visual-design-on-an-agile-team-ae4a2a712914#.sar3pqm2v" target="_blank">medium</a><br/>
+			<a href="https://www.linkedin.com/in/davidghent/" target="_blank">linkedin</a><br/>
+	</div>
+</div>
+
+
+
+<div class="wrapper grey-background">
 	<div id="end">
-		<p class="case-title">Want to know more?</p><br/><br/>
-		<p class="byline">I also enjoying building sites to showcase some of my film photography. My first collection is from <a href="http://david-ghent-portfolio.cfapps.io/black-and-white-photos/" target="_blank">America</a>, and the second is from the time I spent in <a href="http://david-ghent-portfolio.cfapps.io/berlin-gallery/">Berlin</a>. When I'm away from the computer, I like adventuring on my <a href="https://www.instagram.com/p/BDeaxOEQqay/?taken-by=canadian.dave" target="_blank">motorcycle</a>, or in my <a href="https://www.instagram.com/p/BWoAfhVn0ti/?taken-by=canadian.dave" target="_blank">old car</a>. also really like rolling around on wheels. Check out a <a href="https://vimeo.com/108076014" target"_blank">profile</a> shot a few years ago in Toronto. Also feel free to email me, I like talking about design over coffee or tasty beers: david@ghent.design
-		<br/><br/>
-	</p>
-		<p class="byline"><a href="#">&uarr; Top</a></p>
+		<p class="sub-title">Was that case study a lil' boring? You can find different case studies from a variety of different industries on my <a href="https://www.behance.net/davidghent" target="_blank">behance</a>. Or just cruise my
+		<a href="https://dribbble.com/daveghent" target="_blank">dribbble</a> for a taste of my style.
+		</p>
+		<p class="top-link"><a href="#">&uarr; Top</a></p>
 	</div>
 </div><!-- end wrapper -->
 
@@ -81,14 +122,5 @@
 
 </body>
 
-<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-1535384-1', 'auto');
-		ga('send', 'pageview');
-</script>
 
 </html>
