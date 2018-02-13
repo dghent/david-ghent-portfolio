@@ -91,15 +91,27 @@ a:hover {
 
 #section2 {
   color: #052123;
+  background-image: url('img/harley-davidson.png');
 }
 
 #section2 a {
-  color: #FF6BBB;
+  color: #FF7201;
 }
 
 #section2 a:hover {
-  color: #C21974;
+  color: #000;
 }
+
+#section2 h1 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 48px;
+}
+
+/* .hd-full-bg {
+  background-image: url('img/harley-davidson.png');
+  background-repeat: no-repeat;
+  background-position: center;
+} */
 
 #section3 {
   color: #052123;
@@ -118,13 +130,6 @@ a:hover {
   border-bottom: none;
   display: block;
   padding: 24px 0;
-}
-
-#end-links {
-  padding: 24px 0;
-}
-#end-links a {
-  border-bottom: none;
 }
 
 @media screen and (min-width: 1200px) {
