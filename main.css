@@ -90,7 +90,7 @@ a:hover {
 }
 
 #section2 {
-  color: #052123;
+  color: #FFF;
   background-image: url('img/Harley-Davidson.jpg');
 }
 
@@ -103,7 +103,6 @@ a:hover {
 }
 
 #section2 h1, #section4 h1, #section5 h1 {
-  background-color: rgba(255, 255, 255, 1);
   padding: 48px;
 }
 
@@ -112,12 +111,12 @@ a:hover {
 }
 
 #section4 {
-  color: #052123;
+  color: #FFF;
   background-image: url('img/Chevron.jpg');
 }
 
 #section5 {
-  color: #052123;
+  color: #000;
   background-image: url('img/dribbble-collage.jpg');
 }
 
