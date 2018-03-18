@@ -1,6 +1,6 @@
 ---
 applications:
-- name: david-portfolio-test
+- name: david-ghent-portfolio
   memory: 512M
   instances: 1
   # random-route: true
