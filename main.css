@@ -120,6 +120,14 @@ a:hover {
   background-image: url('img/dribbble-collage.jpg');
 }
 
+#section6 a {
+  color: #F79A00;
+}
+
+#section6 a:hover {
+  color: #B47000;
+}
+
 .strikethrough {
   text-decoration: line-through;
   color: #E1E9F5;
