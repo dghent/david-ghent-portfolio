@@ -1,0 +1,162 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html, body {
+  font-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-feature-settings: "kern", "liga", "frac", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "frac", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "frac", "pnum";
+  font-feature-settings: "kern", "liga", "frac", "pnum";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #052123;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  padding: 48px 0;
+}
+
+p {
+  padding: 24px 0;
+  line-height: 48px;
+}
+
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  text-decoration: none;
+  color: #0BA2FB;
+}
+a:active, a:focus {
+  border-color: #9fb5c2;
+  outline: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #000;
+  color: #FF7061;
+}
+
+body {
+  margin: 80px 124px 80px 80px;
+}
+
+#section-1, #section-2, #section-3, #section-4 {
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 96px;
+  }
+  p {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  h1 {
+    font-size: 72px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+#section-1, #section-1 a {
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 0.5s; /* Firefox < 16 */
+      -ms-animation: fadein 0.5s; /* Internet Explorer */
+       -o-animation: fadein 0.5s; /* Opera < 12.1 */
+          animation: fadein 0.5s;
+          animation-timing-function: ease-in-out;
+}
+
+#section-2, #section-2 a {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+          animation-timing-function: ease-in-out;
+}
+
+#section-3, #section-3 a {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+          animation-timing-function: ease-in-out;
+}
+
+#section-4, #section-4 a {
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2.5s; /* Firefox < 16 */
+      -ms-animation: fadein 2.5s; /* Internet Explorer */
+       -o-animation: fadein 2.5s; /* Opera < 12.1 */
+          animation: fadein 2.5s;
+          animation-timing-function: ease-in-out;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
