@@ -63,6 +63,10 @@ h1 {
   padding: 48px 0;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 p {
   padding: 24px 0;
   line-height: 48px;
@@ -89,16 +93,62 @@ body {
   margin: 80px 124px 80px 80px;
 }
 
-#section-1, #section-2, #section-3, #section-4 {
+
+#section-1 {
   margin-bottom: 80px;
 }
+
+#section-2 {
+  margin-bottom: 160px;
+}
+
+#harley {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#chevron {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#chevron img {
+  width: 100%;
+}
+
+.left {
+  margin-right: 48px;
+  width: 50%;
+  background-color: #E6EBF0;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+}
+
+.divider {
+  clear: both;
+  padding-bottom: 64px;
+}
+
 
 @media screen and (min-width: 1200px) {
   h1 {
     font-size: 96px;
   }
+  h2 {
+    font-size: 48px;
+  }
   p {
-    font-size: 40px;
+    font-size: 24px;
+  }
+  .right a {
+    font-size: 24px;
   }
 }
 
