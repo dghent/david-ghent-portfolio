@@ -102,30 +102,27 @@ body {
   margin-bottom: 160px;
 }
 
-#harley {
+#header-divider p {
+  border-bottom: 1px #052123 solid;
+}
+
+.flex-section {
   width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-#chevron {
-  width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#chevron img {
+.full-image img {
   width: 100%;
 }
 
 .left {
   margin-right: 48px;
   width: 50%;
-  background-color: #E6EBF0;
   text-align: center;
 }
+
 
 .right {
   width: 50%;
@@ -133,7 +130,6 @@ body {
 
 .divider {
   clear: both;
-  padding-bottom: 64px;
 }
 
 
@@ -150,6 +146,15 @@ body {
   .right a {
     font-size: 24px;
   }
+  #header-divider {
+    margin-bottom: 64px;
+  }
+  #header-divider p {
+
+  }
+  .divider {
+    padding-bottom: 164px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -159,6 +164,15 @@ body {
   p {
     font-size: 18px;
   }
+  #header-divider {
+    margin-bottom: 64px;
+  }
+  #header-divider p {
+
+  }
+  .divider {
+    padding-bottom: 164px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -167,6 +181,15 @@ body {
   }
   p {
     font-size: 18px;
+  }
+  #header-divider {
+    margin-bottom: 64px;
+  }
+  #header-divider p {
+
+  }
+  .divider {
+    padding-bottom: 164px;
   }
 }
 
@@ -185,15 +208,6 @@ body {
       -ms-animation: fadein 1s; /* Internet Explorer */
        -o-animation: fadein 1s; /* Opera < 12.1 */
           animation: fadein 1s;
-          animation-timing-function: ease-in-out;
-}
-
-#section-3, #section-3 a {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
           animation-timing-function: ease-in-out;
 }
 
