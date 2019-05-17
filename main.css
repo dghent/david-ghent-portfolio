@@ -113,8 +113,6 @@ body {
 
 .flex-section {
   width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -177,6 +175,25 @@ body {
   }
   .divider {
     padding-bottom: 164px;
+  }
+  .flex-section {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flex-section {
+    flex-direction: column;
+  }
+  .left {
+    margin-right: 0;
+  }
+  .right {
+    margin-top: 64px;
+    width: 100%;
+  }
+  body {
+    text-align: center;
   }
 }
 
