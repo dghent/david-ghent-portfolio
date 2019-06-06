@@ -148,6 +148,8 @@ body {
 #case-study img {
   width: 100%;
   text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 #case-study h2 {
   padding-top: 24px;
