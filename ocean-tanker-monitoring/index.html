@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../main.css"/>
+<title>Ride Planning for Harley Davidson</title>
+
+</head>
+	<body>
+		<div id="case-study">
+			<h1 class="case-study-text">Ocean Tanker Monitoring</h1>
+			<p class="case-study-text">While at Pivotal, I worked on a team to improve the safety and monitoring capabilities for large ocean mining facilities. It was my task to build user empathy, help narrow the product scope, and identify and test our solution.</p>
+
+			<h1 class="case-study-text">Problem</h1>
+			<p class="case-study-text">These huge “rigs” are mainly overlooked by Real Time Operators (RTO’s) that are looking for anomalies in the data. An example would be changes in the displacement of the volume that could result in dangerous outcomes. Basically, these folks are responsible if the rig blows up. The team consisted of 1 product owner, 1 product manager, 1 data scientist, an engineering pair, myself and my design pair.</p>
+
+			<img src="whiteboarding-problem.png"/>
+
+			<h1 class="case-study-text">In the first few days of the project we worked on understanding the problem space.</h1>
+
+			<img src="users.png"/>
+			<img src="prioritizing-user-actions.jpeg"/>
+
+			<h1 class="case-study-text">We mapped user actions and then prioritized the core ones. We decided to solve problems for the operators first, since they were experiencing the most pain.</h1>
+
+			<img src="sketching.png"/>
+
+			<h1 class="case-study-text">After some quick research, we starting framing the problem by sketching.</h1>
+			<p class="case-study-text">After some interviews with various RTO’s and more stakeholders we felt our team was ready to start framing a solution — so together we sketched out some ideas. Our main goal was to prioritize the most important data about the drilling run, or “trip”, to make sure the RTO was able to scan actionable information faster. We wanted to learn more about what data was relevant, when, and how often. We got to work and started rapidly prototyping (sketch+invision) to test with more RTO’s.</p>
+
+			<img src="prototypes.png"/>
+
+			<h1 class="case-study-text">As each drill stand was getting attached, our interface needed to show the gain/loss data.</h1>
+			<p class="case-study-text">This helped inform the RTO’s of any anomalies in their drills, fill tanks, and displacement tanks.</p>
+
+			<img src="motion-simulation.png"/>
+
+			<h1 class="case-study-text">To simulate the incoming information before our data scientist could query it all in SQL, I animated a normal data flow in After Effects.</h1>
+			<p class="case-study-text">We continued to test both our clickable InVision prototype and simulation video to stakeholders and RTO’s to get feedback. Take a look at the <a href="https://vimeo.com/219048443" target="_blank">video rendering</a> for a simulation of what the app looks like.</p>
+
+			<img src="final-screen.png"/>
+
+			<h1 class="case-study-text">Conclusion</h1>
+			<p class="case-study-text">We decided on a layout that favored 3 main data changes: new stands coming in — each with their gain/loss data associated with them, as well as a line graph of the overall gain/loss, and cumulative gain/loss. Deviant data in any of these areas prompted the RTO’s to take action.</p>
+
+			<h1 class="case-study-text">What went well?</h1>
+			<p class="case-study-text">In a very short time frame we were able to identify, frame, and implement a solution that was helping operators right away. They were able to move away from a similar solution that relied heavily on an excel sheet.</p>
+
+			<h1 class="case-study-text">What didn’t go so well?</h1>
+			<p class="case-study-text">We weren’t able to learn from our first release. With all the data, time, and effort put into understanding how to solve this problem, it wasn’t clear if they were going to iterate from real learnings in the field, and work on a phase 2. Major bummer. But hopefully they have another team working on that and just didn’t tell us.</p>
+
+	</div>
+
+	<div class="divider"></div>
+	<div class="line-divider"></div>
+	<div class="divider"></div>
+
+	<a href="../index.html">← Back to all work</a>
+
+	</body>
+</html>
