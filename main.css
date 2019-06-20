@@ -152,7 +152,6 @@ body {
   margin-right: 48px;
 }
 
-
 .right {
   width: 50%;
 }
@@ -167,10 +166,6 @@ body {
   border-color: #ccc;
 }
 
-#home-margin {
-    margin: 80px 124px 80px 80px;
-}
-
 #case-study img {
   width: 100%;
   text-align: center;
@@ -181,13 +176,34 @@ body {
   padding-top: 24px;
 }
 
+.case-study-text {
+  text-align: left;
+}
+.case-study-text-container {
+  width: 680px;
+  text-align: center;
+  margin: auto;
+}
+
+/* @media screen and (min-width: 1920px) {
+  .case-study-text {
+    width: 50%;
+    padding-left: 48px;
+  }
+} */
+
+
+
 @media screen and (min-width: 1200px) {
+  #home-margin {
+      margin: 80px 124px 80px 80px;
+  }
   h1 {
     font-size: 96px;
   }
-  h2 {
+  /* h2 {
     font-size: 48px;
-  }
+  } */
   p {
     font-size: 24px;
   }
@@ -203,13 +219,15 @@ body {
   .divider {
     padding-bottom: 164px;
   }
-  .case-study-text {
-    width: 70%;
-    padding-left: 48px;
+  .case-study-text-container {
+    width: 680px;
   }
 }
 
 @media screen and (max-width: 1199px) {
+  #home-margin {
+      margin: 64px 64px 64px 64px;
+  }
   h1 {
     font-size: 72px;
   }
@@ -218,9 +236,6 @@ body {
   }
   #header-divider {
     margin-bottom: 64px;
-  }
-  #header-divider p {
-
   }
   .divider {
     padding-bottom: 164px;
@@ -231,16 +246,39 @@ body {
   .left-half-width {
     width: 100%;
   }
-  /* .left img {
-    width: 100%;
-  } */
   .left-small-image img {
     margin-right: 0;
     width: 100%;
   }
+  .case-study-text-container {
+    width: 680px;
+  }
 }
 
+@media screen and (min-width: 901px) {
+  body {
+    margin: 16px;
+  }
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  .case-study-text-container {
+    width: 680px;
+  }
+}
 @media screen and (max-width: 900px) {
+  #section-1 {
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 48px;
+  }
   .flex-section {
     flex-direction: column;
   }
@@ -253,7 +291,7 @@ body {
     width: 100%;
   }
   body {
-    /* text-align: center; */
+    margin: 16px;
   }
   .left-small-image img {
     margin-right: 0;
@@ -262,11 +300,21 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    margin: 16px;
+  }
+  #home-margin {
+      margin: 16px;
+  }
   h1 {
-    font-size: 48px;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
   }
   p {
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 24px;
   }
   #header-divider {
     margin-bottom: 64px;
@@ -277,8 +325,12 @@ body {
   .divider {
     padding-bottom: 164px;
   }
-  img {
-    display: none;
+
+  #case-study img {
+    width: 100%;
+    text-align: center;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
   }
 }
 
