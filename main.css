@@ -185,10 +185,9 @@ body {
   margin: auto;
 }
 
-/* @media screen and (min-width: 1920px) {
-  .case-study-text {
-    width: 50%;
-    padding-left: 48px;
+/* @media screen and (min-width: 1440px) {
+  #section1 h1 {
+    font-size: 124px;
   }
 } */
 
@@ -258,9 +257,6 @@ body {
 @media screen and (min-width: 901px) {
   body {
     margin: 16px;
-  }
-  h1 {
-    font-size: 64px;
   }
   h2 {
     font-size: 48px;
