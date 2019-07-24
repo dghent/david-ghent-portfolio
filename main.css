@@ -84,6 +84,10 @@ h2 {
   font-weight: 600;
 }
 
+.no-top-margin {
+  margin-top: 0;
+}
+
 p {
   padding: 24px 0;
   line-height: 48px;
@@ -97,7 +101,7 @@ a {
   color: #39B6BF;
 }
 a:active, a:focus {
-  border-color: #4339BF;
+  border-color: #118088;
   outline: none;
 }
 
@@ -106,15 +110,9 @@ a:hover {
   color: #118088;
 }
 
-/* a:hover img {
-  outline: none;
-  border-bottom: none;
-} */
-
 body {
   margin: 80px 80px 80px 80px;
 }
-
 
 #section-1 {
   margin-bottom: 80px;
@@ -145,15 +143,10 @@ body {
 .left-half-width {
   margin-right: 48px;
   width: 50%;
-  /* text-align: center; */
 }
 
 .left-small-image {
   margin-right: 48px;
-}
-
-.right {
-  width: 50%;
 }
 
 .divider {
@@ -167,70 +160,92 @@ body {
 }
 
 #case-study img {
-  width: 100%;
   text-align: center;
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-#case-study h2 {
-  padding-top: 24px;
 }
 
 .case-study-text {
   text-align: left;
 }
 .case-study-text-container {
-  text-align: center;
-  margin: auto;
+  /* text-align: center;
+  margin: auto; */
+}
+.bullet-points {
+  /* font-size: 16px; */
+  color: #2E484A;
 }
 
-/* @media screen and (min-width: 1440px) {
-  #section1 h1 {
-    font-size: 124px;
-  }
-} */
+/** Type Scale: 1.333 Perfect Fourth
 
+89px
+67px
+50px
+37px
+28px
+21px
+16px
+12px
 
+**/
 
+/** Max Desktop **/
 @media screen and (min-width: 1200px) {
+  body {
+    /* background-color: green; */
+  }
+
+  /* index */
   #home-margin {
       margin: 80px 124px 80px 80px;
   }
+  .right {
+    width: 50%;
+  }
+  /* Case Study */
   h1 {
-    font-size: 96px;
+    font-size: 89px;
   }
-  /* h2 {
-    font-size: 48px;
-  } */
+  h2 {
+    font-size: 67px;
+    margin-top: 32px;
+  }
   p {
-    font-size: 24px;
+    font-size: 28px;
   }
+  /* All */
   .right a {
-    font-size: 24px;
+    font-size: 28px;
   }
   #header-divider {
     margin-bottom: 64px;
-  }
-  #header-divider p {
-
   }
   .divider {
     padding-bottom: 164px;
   }
   .case-study-text-container {
-    width: 720px;
+    width: 940px;
+    padding-left: 124px;
+  }
+  #case-study img {
+    max-width: 1920px;
+    text-align: center;
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+/** Medium Desktop and Large Mobile, iPhone 6 **/
+@media screen and (min-width: 901px) and (max-width: 1199px) {
+  body {
+    /* background-color: blue; */
+  }
+  /* Index */
+  #section-1 {
+    margin-bottom: 0;
+  }
   #home-margin {
-      margin: 64px 64px 64px 64px;
-  }
-  h1 {
-    font-size: 72px;
-  }
-  p {
-    font-size: 24px;
+    margin: 64px 64px 64px 64px;
   }
   #header-divider {
     margin-bottom: 64px;
@@ -238,46 +253,17 @@ body {
   .divider {
     padding-bottom: 164px;
   }
-  .flex-section {
-    flex-direction: row;
+  .flex-section { /* To make index page images full width */
+    flex-direction: column;
   }
   .left-half-width {
     width: 100%;
   }
-  .left-small-image img {
+  .left img {
     margin-right: 0;
     width: 100%;
   }
-  .case-study-text-container {
-    width: 720px;
-  }
-}
-
-@media screen and (min-width: 901px) {
-  body {
-    margin: 16px;
-  }
-  h2 {
-    font-size: 48px;
-  }
-  .case-study-text-container {
-    width: 720px;
-  }
-}
-@media screen and (max-width: 900px) {
-  #section-1 {
-    margin-bottom: 0;
-  }
-  h1 {
-    font-size: 56px;
-  }
-  h2 {
-    font-size: 48px;
-  }
-  .flex-section {
-    flex-direction: column;
-  }
-  .left img {
+  .left-small-image img {
     margin-right: 0;
     width: 100%;
   }
@@ -285,47 +271,120 @@ body {
     margin-top: 64px;
     width: 100%;
   }
+  /* All */
+  h1 {
+    font-size: 67px;
+  }
+  h2 {
+    font-size: 50px;
+    margin-top: 24px;
+  }
+  p {
+    font-size: 28px;
+  }
+  /* Case Study */
+  .case-study-text-container {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  #case-study img {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+
+/** Medium Mobile **/
+@media screen and (min-width: 601px) and (max-width: 900px) {
   body {
     margin: 16px;
+    /* background-color: red; */
+  }
+  /* Index */
+  .flex-section { /* To make index page images full width */
+    flex-direction: column;
+  }
+  .left-half-width {
+    width: 100%;
+  }
+  .left img {
+    margin-right: 0;
+    width: 100%;
   }
   .left-small-image img {
     margin-right: 0;
     width: 100%;
   }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    margin: 16px;
-  }
-  #home-margin {
-      margin: 16px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 16px;
-    line-height: 24px;
-  }
   #header-divider {
     margin-bottom: 64px;
-  }
-  #header-divider p {
-
   }
   .divider {
     padding-bottom: 164px;
   }
-
+  .right {
+    margin-top: 64px;
+    width: 100%;
+  }
+  /* All */
+  h1 {
+    font-size: 67px;
+  }
+  h2 {
+    font-size: 37px;
+    margin-top: 16px;
+  }
+  p {
+    font-size: 28px;
+    line-height: 37px;
+  }
+  /* Case Study */
+  .case-study-text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
   #case-study img {
     width: 100%;
-    text-align: center;
-    /* padding-top: 64px;
-    padding-bottom: 64px; */
+  }
+}
+
+/** X-Small Mobile **/
+@media screen and (max-width: 600px) {
+  body {
+    margin: 16px;
+    /* background-color: purple; */
+  }
+  /* Index */
+  #home-margin {
+    margin: 16px;
+  }
+  #header-divider {
+    margin-bottom: 64px;
+  }
+  /* All */
+  h1 {
+    font-size: 67px;
+  }
+  h2 {
+    font-size: 37px;
+    margin-top: 16px;
+  }
+  p {
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .divider {
+    padding-bottom: 164px;
+  }
+  /* Case Study */
+  #case-study img {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .case-study-text {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
