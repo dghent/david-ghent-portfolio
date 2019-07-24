@@ -193,15 +193,20 @@ body {
   body {
     /* background-color: green; */
   }
-
   /* index */
   #home-margin {
       margin: 80px 124px 80px 80px;
   }
+  #header-divider {
+    margin-bottom: 64px;
+  }
   .right {
     width: 50%;
   }
-  /* Case Study */
+  .right a {
+    font-size: 28px;
+  }
+  /* All */
   h1 {
     font-size: 89px;
   }
@@ -212,16 +217,10 @@ body {
   p {
     font-size: 28px;
   }
-  /* All */
-  .right a {
-    font-size: 28px;
-  }
-  #header-divider {
-    margin-bottom: 64px;
-  }
   .divider {
     padding-bottom: 164px;
   }
+  /* Case Study */
   .case-study-text-container {
     width: 940px;
     padding-left: 124px;
@@ -249,9 +248,6 @@ body {
   }
   #header-divider {
     margin-bottom: 64px;
-  }
-  .divider {
-    padding-bottom: 164px;
   }
   .flex-section { /* To make index page images full width */
     flex-direction: column;
@@ -281,6 +277,9 @@ body {
   }
   p {
     font-size: 28px;
+  }
+  .divider {
+    padding-bottom: 164px;
   }
   /* Case Study */
   .case-study-text-container {
