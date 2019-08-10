@@ -143,8 +143,10 @@ body {
 .left-half-width {
   margin-right: 48px;
   width: 50%;
+  padding-top: 22px; /*for text alignment*/
 }
 
+/* used for narrow image in old HD gif */
 .left-small-image {
   margin-right: 48px;
 }
@@ -259,6 +261,7 @@ body {
     margin-right: 0;
     width: 100%;
   }
+/* used for narrow image in old HD gif */
   .left-small-image img {
     margin-right: 0;
     width: 100%;
@@ -311,6 +314,7 @@ body {
     margin-right: 0;
     width: 100%;
   }
+/* used for narrow image in old HD gif */
   .left-small-image img {
     margin-right: 0;
     width: 100%;
@@ -354,11 +358,21 @@ body {
     /* background-color: purple; */
   }
   /* Index */
+  .flex-section { /* To make index page images full width */
+    flex-direction: column;
+  }
   #home-margin {
     margin: 16px;
   }
   #header-divider {
     margin-bottom: 64px;
+  }
+  .left-half-width {
+    width: 100%;
+  }
+  .right {
+    margin-top: 64px;
+    width: 100%;
   }
   /* All */
   h1 {
