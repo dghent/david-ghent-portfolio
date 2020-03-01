@@ -376,14 +376,14 @@ body {
   }
   /* All */
   h1 {
-    font-size: 67px;
+    font-size: 40px;
   }
   h2 {
     font-size: 37px;
     margin-top: 16px;
   }
   p {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 37px;
   }
   .divider {
