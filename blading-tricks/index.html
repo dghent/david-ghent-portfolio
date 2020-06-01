@@ -23,14 +23,12 @@
 
   body {
     font-family: 'Work Sans', sans-serif;
-    /* background-color: #3c3c3c; */
-    /* color: #480901; */
+    color: #222235;
   }
 
   h1 {
     font-weight: 700;
-    margin-bottom: 16px;
-    /* color: #FD3319; */
+    margin: 8px 0px 8px 0px;
   }
 
   h2 {
@@ -39,6 +37,16 @@
 
   p {
     font-weight: 400;
+    margin: 8px 0px 8px 0px;
+    line-height: 24px;
+  }
+
+  a:link {
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #222235;
   }
 
   .row {
@@ -50,7 +58,6 @@
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
-    /* max-width: 25%; */
     padding: 16px 16px;
   }
 
@@ -61,64 +68,52 @@
   }
 
   .center-header {
-    text-align: center;
-    border: solid 8px #000;
-    padding: 64px;
+    margin: 8px;
   }
+
   .center-header p{
-    line-height: 32px;
+    line-height: 40px;
   }
 
-  .remove-bottom-padding {
-    padding: 16px 16px 0px 16px;
-  }
-
-  @media screen and (min-width: 801px) {
+  @media screen and (min-width: 800px) {
     h1 {
       font-size: 64px;
     }
     .center-header p{
-      margin-left: 148px;
-      margin-right: 148px;
-    }
-  }
-
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-    /* h1 {
       font-size: 24px;
-    } */
+    }
+    .center-header {
+      padding: 8px;
+      margin-top: 108px;
+      margin-bottom: 108px;
+      margin-right: 50%;
+    }
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 799px) {
+    h1 {
+      font-size: 56px;
+    }
     .column {
       flex: 100%;
       max-width: 100%;
     }
-    .center-header p{
-      margin-left: 0;
-      margin-right: 0;
+    .center-header {
+      padding: 8px;
     }
-    /* h1 {
-      font-size: 24px;
-    } */
   }
 
   </style>
 
 </head>
 	<body>
-        <div class="row remove-bottom-padding" >
-          <div class="column remove-bottom-padding">
+        <div>
+          <div class="column">
             <div class="center-header">
                 <h1>Basic Blading Tricks</h1>
-                <p>A guide to most of the basic tricks you should try to learn as a new blader. A little side project with all the time <a href="http://www.ghent.design" target="_blank">I had</a> sheltering in place during the <a href="https://www.google.com/search?sxsrf=ALeKk02zRaCBVXbWT2SBbQXsLk9Z1FUXEA%3A1589150405971&ei=xYK4XunrOtHB7gK8hovwBw&q=covid-19+pandemic+2020&oq=covid-19+pandemic+2020&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeOgQIABBHOgcIABAUEIcCUMVDWPNHYIlMaABwAXgAgAHhAYgB0AaSAQUwLjQuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwip4sTLrqrpAhXRoFsKHTzDAn4Q4dUDCAw&uact=5" target="_blank">pandemic of 2020</a>.</p>
-                <p><a href="https://www.instagram.com/explore/tags/rollerbladingisback/">#rollerbladingisback</a></p>
+                <p>A guide to most of the basic tricks you could learn as a new blader. A little side project with all the time <a href="https://www.instagram.com/canadian.dave/" target="_blank">I</a> had sheltering in place during the <a href="https://www.google.com/search?sxsrf=ALeKk02zRaCBVXbWT2SBbQXsLk9Z1FUXEA%3A1589150405971&ei=xYK4XunrOtHB7gK8hovwBw&q=covid-19+pandemic+2020&oq=covid-19+pandemic+2020&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeOgQIABBHOgcIABAUEIcCUMVDWPNHYIlMaABwAXgAgAHhAYgB0AaSAQUwLjQuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwip4sTLrqrpAhXRoFsKHTzDAn4Q4dUDCAw&uact=5" target="_blank">pandemic of 2020</a>.</p>
+                <p><a href="https://www.instagram.com/explore/tags/rollerbladingisback/" target="_blank">#rollerbladingisback</a></p>
             </div>
           </div>
         </div>
@@ -126,7 +121,7 @@
           <div class="column">
             <img src="frontside.gif">
             <h2>Frontside</h2>
-            <p>Probably the best beginner trick to start with. Approach with speed and jump with both feet and land equally balanced on the center of your frames, with your legs shoulder width apart. Angle your ankles outward to balance.</p>
+            <p>Probably the best beginner trick to start with. Approach with speed and jump with both feet and land equally balanced on the center of your frames, with your legs shoulder width apart.</p>
           </div>
           <div class="column">
             <img src="backside.gif">
@@ -136,7 +131,7 @@
           <div class="column">
             <img src="royale.gif">
             <h2>Royale</h2>
-            <p>Much like a frontside, but lean both your ankles backward. You'll find it's much easier to bend with your knees to allow your ankles to rest. Make sure you lean forward otherwise you'll slip backward.</p>
+            <p>Much like a frontside, but lean both your ankles backward. You'll find it's much easier to bend with your knees to allow your ankles to rest. Make sure you lean forward otherwise you'll slip back.</p>
           </div>
         </div>
 
@@ -144,17 +139,17 @@
           <div class="column">
             <img src="backside-royale.gif">
             <h2>Backside Royale</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Very similar to a frontside royale but a bit more challenging since the rail is behind you.</p>
           </div>
           <div class="column">
             <img src="frontside-full-torque.gif">
             <h2>Frontside Full Torque</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Once you've mastered a frontside try leaning your into your groove on your front foot too. It looks simple but can be challenging to keep your front foot leaning forward. Bend your knees and space out your legs to make it easier to lean your ankles.</p>
           </div>
           <div class="column">
             <img src="backside-full-torque.gif">
           <h2>Backside Full Torque</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Similar to a frontside full torque, but backside. Some find this much easier than the frontside version, some vice versa. Start with the one that's most comfortable to you and then work on the other.</p>
           </div>
         </div>
 
@@ -162,12 +157,12 @@
           <div class="column">
             <img src="soul-grind.gif">
             <h2>Soul Grind</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>A classic trick - easy to learn but hard to jump on with both feet at first. Practise by stepping on with your soul foot first. Once mastered it's one of the easier tricks to balance for longer grinds.</p>
           </div>
           <div class="column">
             <img src="acid-soul.gif">
           <h2>Acid Soul Grind</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Similar to a soul grind, but your front foot is angeled open. Rely on your soul foot to be solid before trying this one.</p>
           </div>
           <div class="column">
             <img src="mizou.gif">
@@ -268,90 +263,54 @@
 
         <div class="row">
           <div class="column">
-            <img src="270-backside-royale.gif">
-            <h2>270 Backside Royale</h2>
-            <p>Writeup for trick description coming soon. </p>
-          </div>
-          <div class="column">
-            <img src="to-do.jpg">
-            <h2>270 Backside Full Torque</h2>
-            <p>Writeup for trick description coming soon. </p>
-          </div>
-          <div class="column">
             <img src="topsoul.gif">
             <h2>Topsoul</h2>
             <p>Writeup for trick description coming soon. </p>
           </div>
+        <div class="column">
+          <img src="topside-acid.gif">
+          <h2>Topside Acid</h2>
+          <p>Writeup for trick description coming soon. </p>
         </div>
+        <div class="column">
+          <img src="sweatstance.gif">
+          <h2>Sweatstance</h2>
+          <p>Writeup for trick description coming soon. </p>
+        </div>
+      </div>
 
         <div class="row">
-          <div class="column">
-            <img src="topside-acid.gif">
-            <h2>Topside Acid</h2>
-            <p>Writeup for trick description coming soon. </p>
-          </div>
-          <div class="column">
-            <img src="sweatstance.gif">
-            <h2>Sweatstance</h2>
-            <p>Writeup for trick description coming soon. </p>
-          </div>
           <div class="column">
             <img src="topside-pornstar.gif">
             <h2>Topside Pornstar</h2>
             <p>Writeup for trick description coming soon. </p>
           </div>
+          <div class="column">
+            <img src="fishbrain.gif">
+            <h2>Fishbrain</h2>
+            <p>Writeup for trick description coming soon. </p>
+          </div>
+          <div class="column">
+            <img src="frontside-unity.gif">
+            <h2>Frontside Unity</h2>
+            <p>Writeup for trick description coming soon. </p>
+          </div>
         </div>
 
       <div class="row">
-        <div class="column">
-          <img src="fishbrain.gif">
-          <h2>Fishbrain</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
-        <div class="column">
-          <img src="frontside-unity.gif">
-          <h2>Frontside Unity</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
         <div class="column">
           <img src="backside-unity.gif">
           <h2>Backside Unity</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
-      </div>
-
-      <div class="row">
         <div class="column">
-          <img src="savannah.gif">
-          <h2>Savannah</h2>
+          <img src="alley-oop-unity.gif">
+          <h2>Alley-Oop Unity</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
         <div class="column">
-          <img src="truespin-savannah.gif">
-          <h2>Truespin Savannah</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
-        <div class="column">
-          <img src="negative-mizou.gif">
-          <h2>Negative Mizou</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column">
-          <img src="negative-makio.gif">
-          <h2>Negative Makio</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
-        <div class="column">
-          <img src="to-do.jpg">
-          <h2>Negative Acid</h2>
-          <p>Writeup for trick description coming soon. </p>
-        </div>
-        <div class="column">
-          <img src="to-do.jpg">
-          <h2>Negative Pornstar</h2>
+          <img src="alley-oop-backside-unity.gif">
+          <h2>Alley-Oop Backside Unity</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
       </div>
@@ -422,34 +381,34 @@
           <p>Writeup for trick description coming soon. </p>
         </div>
         <div class="column">
-          <img src="to-do.jpg">
-          <h2>Truespin Mistrial</h2>
+          <img src="truspin-pornstar.gif">
+          <h2>Truespin Pornstar</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
       </div>
 
       <div class="row">
         <div class="column">
-          <img src="to-do.jpg">
+          <img src="truspin-makio.gif">
           <h2>Truespin Makio</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
         <div class="column">
-          <img src="to-do.jpg">
-          <h2>Truespin Pornstar</h2>
+          <img src="truspin-soul.gif">
+          <h2>Truespin Soul Grind</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
         <div class="column">
-          <img src="to-do.jpg">
-          <h2>Truespin Soul Grind</h2>
+          <img src="negative-mistrial.gif">
+          <h2>Negative Mistrial</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
       </div>
 
       <div class="row">
         <div class="column">
-          <img src="to-do.jpg">
-          <h2>Truespin Acid Soul</h2>
+          <img src="270-backside-royale.gif">
+          <h2>270 Backside Royale</h2>
           <p>Writeup for trick description coming soon. </p>
         </div>
         <div class="column">
@@ -458,9 +417,9 @@
           <p>Writeup for trick description coming soon.</p>
         </div>
         <div class="column">
-          <!-- <img src="#">
-          <h2></h2>
-          <p></p> -->
+          <img src="to-do.jpg">
+          <h2>To Do</h2>
+          <p>Any requests? Feel like a trick isn't here and it should be? <a href="https://www.instagram.com/canadian.dave/" target="_blank">DM me on IG</a>.</p>
         </div>
       </div>
 
