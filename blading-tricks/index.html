@@ -23,7 +23,8 @@
 
   body {
     font-family: 'Work Sans', sans-serif;
-    color: #222235;
+    color: #052739;
+    background-color: #fffbdf;
     margin: 0;
     padding: 0;
   }
@@ -31,24 +32,36 @@
   h1 {
     font-weight: 700;
     margin: 8px 0px 8px 0px;
+    color: #164a65;
   }
 
   h2 {
     font-weight: 700;
+    color: #164a65;
   }
 
   p {
     font-weight: 400;
-    margin: 8px 0px 8px 0px;
-    line-height: 24px;
+    margin: 8px 0px 16px 0px;
+  }
+
+  .center-header p {
+    border: none;
   }
 
   a:link {
     font-weight: bold;
+    color: #dbb069;
+    text-decoration: none;
   }
 
   a:visited {
-    color: #222235;
+    color: #dbb069;
+  }
+
+  a:hover {
+    text-decoration: underline #bbdff2;
+
   }
 
   .row {
@@ -81,8 +94,13 @@
     h1 {
       font-size: 64px;
     }
+    h2 {
+      font-size: 32px;
+    }
     .center-header p {
-      font-size: 24px;
+      font-size: 32px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .center-header {
       padding: 8px;
@@ -90,12 +108,21 @@
       margin-bottom: 108px;
       margin-right: 50%;
     }
+    p {
+      padding-left: 16px;
+      font-size: 24px;
+      line-height: 36px;
+      border-left: 1px solid #cdc5b9;
+    }
   }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 799px) {
     h1 {
       font-size: 56px;
+    }
+    h2 {
+      font-size: 28px;
     }
     .column {
       flex: 100%;
@@ -107,6 +134,7 @@
     .center-header p {
       padding-left: 0;
       padding-right: 0;
+      font-size: 24px;
     }
     .row {
       padding-left: 0px;
@@ -123,6 +151,8 @@
     p {
       padding-left: 24px;
       padding-right: 24px;
+      font-size: 20px;
+      line-height: 32px;
     }
   }
 
@@ -135,7 +165,6 @@
             <div class="center-header">
                 <h1>Basic Blading Tricks</h1>
                 <p>A guide to most of the basic tricks you could learn as a new blader. A little side project with all the time <a href="https://www.instagram.com/canadian.dave/" target="_blank">I</a> had sheltering in place during the <a href="https://www.google.com/search?sxsrf=ALeKk02zRaCBVXbWT2SBbQXsLk9Z1FUXEA%3A1589150405971&ei=xYK4XunrOtHB7gK8hovwBw&q=covid-19+pandemic+2020&oq=covid-19+pandemic+2020&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEBYQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeMggIABAWEAoQHjIGCAAQFhAeOgQIABBHOgcIABAUEIcCUMVDWPNHYIlMaABwAXgAgAHhAYgB0AaSAQUwLjQuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwip4sTLrqrpAhXRoFsKHTzDAn4Q4dUDCAw&uact=5" target="_blank">pandemic of 2020</a>.</p>
-                <p><a href="https://www.instagram.com/explore/tags/rollerbladingisback/" target="_blank">#rollerbladingisback</a></p>
             </div>
           </div>
         </div>
@@ -143,12 +172,12 @@
           <div class="column">
             <img src="frontside.gif">
             <h2>Frontside</h2>
-            <p>Probably the best beginner trick to start with. Approach with speed and jump with both feet and land equally balanced on the center of your frames, with your legs shoulder width apart.</p>
+            <p>Probably the best beginner trick to start with. Approach with speed and jump with both feet and land equally balanced on the center of your frames, with your legs a little wider than shoulder width apart.</p>
           </div>
           <div class="column">
             <img src="backside.gif">
             <h2>Backside</h2>
-            <p>Similar to a frontside, but slightly more difficult with the rail to your back. You'll find it'll feel like you have to turn a bit more than a frontside.</p>
+            <p>Similar to a frontside, but slightly more difficult with the rail to your back. At first it might feel weird to have your back foot out of view. It helps to practice by jumping on a curb, or another rough edge you won't slip off.</p>
           </div>
           <div class="column">
             <img src="royale.gif">
@@ -179,12 +208,12 @@
           <div class="column">
             <img src="soul-grind.gif">
             <h2>Soul Grind</h2>
-            <p>A classic trick - easy to learn but hard to jump on with both feet at first. Practise by stepping on with your soul foot first. Once mastered it's one of the easier tricks to balance for longer grinds.</p>
+            <p>A classic trick - easy to learn but hard to jump on with both feet at first. Practice by stepping on with your soul foot first. Once mastered it's one of the easier tricks to balance for longer grinds.</p>
           </div>
           <div class="column">
             <img src="acid-soul.gif">
           <h2>Acid Soul Grind</h2>
-          <p>Similar to a soul grind, but your front foot is angeled open. Rely on your soul foot to be solid before trying this one.</p>
+          <p>Similar to a soul grind, but your front foot is angeled with the inside of the front foot open. Rely on your soul foot to be solid before trying this one.</p>
           </div>
           <div class="column">
             <img src="mizou.gif">
@@ -261,7 +290,7 @@
           <div class="column">
             <img src="alley-oop-makio.gif">
             <h2>Alley-Oop Makio</h2>
-            <p>Once you've got confidence holding your alley-oop tricks try this trick. It's harder to balance on one foot, but feels amazing when you lace it. Practise with an even balace of weight on your toe vs heel.</p>
+            <p>Once you've got confidence holding your alley-oop tricks try this trick. It's harder to balance on one foot, but feels amazing when you lace it. Practice with an even balace of weight on your toe vs heel.</p>
           </div>
         </div>
 
@@ -269,17 +298,17 @@
           <div class="column">
             <img src="alley-oop-mizou.gif">
             <h2>Alley-Oop Mizou</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Once comfortable with the other alley-oop soul tricks, keep spinning around and place your feet in the mizou position, but going backwards. Some think this trick feels similar to a 270 backside royale, some think it's similar to a alley-oop makio. See what works better for you by trying to stall it first.</p>
           </div>
           <div class="column">
             <img src="alley-oop-mistrial.gif">
             <h2>Alley-Oop Mistrial</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Similar to the alley-oop mizou, but angle your front foot inward to the mistrial position. It helps to turn your hips soon, and keep them pointed in the opposite direction. Avoid continuing to spin as it makes it harder to hold this trick.</p>
           </div>
           <div class="column">
             <img src="alley-oop-x-grind.gif">
             <h2>Alley-Oop X-Grind</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Once you've mastered the forward x-grind, try it backwards. Experiment with stalling this trick to see which foot is dominant. Some rely on their front foot, some on the back foot. It's most commont to treat this like an alley-oop soul and then just turn the back foot to lock other foot in line.</p>
           </div>
         </div>
 
@@ -287,17 +316,17 @@
           <div class="column">
             <img src="topsoul.gif">
             <h2>Topsoul</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>One of my fav's, the topsoul is just a more difficult version of the soul grind. Jump into the soul position but with the rail behind you, so you land "on top". The key to balancing this is staying right on top of the rail.</p>
           </div>
         <div class="column">
           <img src="topside-acid.gif">
           <h2>Topside Acid</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Similar to the acid soul grind, but jumping on top or "topside" instead. Most prefer to move their topside foot right under their body to maintain that open stance. It helps keep the front foot open.</p>
         </div>
         <div class="column">
           <img src="sweatstance.gif">
           <h2>Sweatstance</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Once you've mastered the mizou and front full torque, this should be very similar. Jump right on top with both feet equally balanced. If you put too much weight on the front soul foot you'll likely lift the back foot off. Style this one out by bending your knees and getting super low.</p>
         </div>
       </div>
 
@@ -305,17 +334,17 @@
           <div class="column">
             <img src="topside-pornstar.gif">
             <h2>Topside Pornstar</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Once you've mastered the pornstar grind, try it topside. Keep most of your weight on your front foot and hover the back foot right behind your heel.</p>
           </div>
           <div class="column">
             <img src="fishbrain.gif">
             <h2>Fishbrain</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Similar to a makio, but put a lot more weight on your ankle. You'll need to lean right on top of the rail to balance it. One way to ease into learning it is to jump almost straight onto the rail. Then move over a bit further to help you stay topside.</p>
           </div>
           <div class="column">
             <img src="frontside-unity.gif">
             <h2>Frontside Unity</h2>
-            <p>Writeup for trick description coming soon. </p>
+            <p>Another classic from the 90s, the frontside unity is a really cool feeling trick. Most have a dominant foot to help them balance - for me it's my front foot since I royale with it. Try stalling this on a curb a bunch of times before hitting the rail, it can be a weird feeling to have your feet crossed at first.</p>
           </div>
         </div>
 
@@ -323,17 +352,17 @@
         <div class="column">
           <img src="backside-unity.gif">
           <h2>Backside Unity</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Similar to the frontside unity, but backside. Which changes the feeling of trick entirely in this case. I put more weight on my backside torque foot at the back and use that to save myself if I miss.</p>
         </div>
         <div class="column">
           <img src="alley-oop-unity.gif">
           <h2>Alley-Oop Unity</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>If you felt really comfortable with the front torque, or alley-oop pornstar, this trick might be a good one to try next. The key is keeping evenly balanced and use your dominant foot to help you jump on the first few times. This is often called a "savannah" depending on where you're from.</p>
         </div>
         <div class="column">
           <img src="alley-oop-backside-unity.gif">
           <h2>Alley-Oop Backside Unity</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>If you feel comfortable with all the other unity tricks, try this one next. The tough part is wrapping your front foot all the way around your body. Again, take advantage of your dominant foot from either the back backslide (for the front foot) or back torque (for the back foot). Also often called a "truespin savannah" or "backside savannah" depending on where you're from.</p>
         </div>
       </div>
 
@@ -341,17 +370,17 @@
         <div class="column">
           <img src="kind-grind.gif">
           <h2>Kindgrind</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Instead of alley-oop sweatstance, or alley-oop topside mizou, this trick got it's own name. This is probably the easiest alley-oop topside grind to get you started. It's very similar to a frontside royale, but just turn your foot and lock in the alley-oop topside foot.</p>
         </div>
         <div class="column">
           <img src="misfit.gif">
           <h2>Misfit</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Very similar to a kindgrind, but angle your front foot inward. Some prefer to do this with their opposite or "switch" soul foot to take advantage of their stronger front torque foot.</p>
         </div>
         <div class="column">
           <img src="alley-oop-topside-pornstar.gif">
           <h2>Alley-Oop Topside Pornstar</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>This trick is a unique feeling one - but can be helpful to try after mastering the kindgrind. Most of your weight will be on your back soul foot, and balance right on top with your legs crossed. It helps to tuck your back foot against the heel of your soul foot for balance.</p>
         </div>
       </div>
 
@@ -359,17 +388,17 @@
         <div class="column">
           <img src="alley-oop-fishbrain.gif">
           <h2>Alley-Oop Fishbrain</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>After jumping turn your hips to point backward, and land on your topside soul foot balanced right on top of the rail. If you don't turn enough it'll be hard to stay on top of the rail, if you continue turning it'll be hard to hold. I find it easier to put more weight on the toe at first rather than the heel. Grabbing this trick often forces you to commit, and of course looks way sicker.</p>
         </div>
         <div class="column">
           <img src="alley-oop-topsoul.gif">
           <h2>Alley-Oop Topsoul</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Spin a full 180 and land backwards in the topsoul position. It helps to trust your soul foot and lock it into place right underneath you. Some prefer to use the non-soul foot to help lock this trick, some prefer to lock their heel in.</p>
         </div>
         <div class="column">
           <img src="alley-oop-topside-acid.gif">
           <h2>Alley-Oop Topside Acid</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>A similar feeling to the alley-op tousoul, but land with you back foot open and on the outide of the h-block. Some find this much easier than the alley-oop topsoul because it feels more natural to turn your front foot this way. I'm not one of those people and this trick is hard as hell for me.</p>
         </div>
       </div>
 
@@ -377,17 +406,17 @@
         <div class="column">
           <img src="truespin-topsoul.gif">
           <h2>Truespin Topsoul</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Much like the alley-oop topsoul, but spin the other way and inward or "truespin". This trick might feel weird at first since your soul foot is turned inward. Most prefer to guide this trick with the toe of their soul foot first, then lock the heel down and balance it out. Your back foot can be helpful to save yourself if you miss the soul foot.</p>
         </div>
         <div class="column">
           <img src="truespin-topside-acid.gif">
           <h2>Truespin Topside Acid</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Building on the truespin topsoul, try turning your back foot open in the acid soul position. At first try stalling this trick over and over to build up the muscle memory. Most find it helpful to aim the soul foot with the toe landing first.</p>
         </div>
         <div class="column">
           <img src="true-topside-pornstar.gif">
           <h2>Truespin Topside Pornstar</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>After feeling comfortable with other truespin topside tricks, try wrapping your non-soul foot around the back of your topside soul foot. It helps to be very confident with the topside soul foot. Practice by stalling first, then be sure to approach with enough speed comfortably. If on a rail, it's is much easier to approach almost stright on - to minimize the angle you'll have to spin.</p>
         </div>
       </div>
 
@@ -395,17 +424,17 @@
         <div class="column">
           <img src="truespin-fishbrain.gif">
           <h2>Truespin Fishbrain</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Probably the toughest truespin topside trick - this will turn heads every time you lace it. Approach it similar to the truespin topside pornstar, but since all your weight is on one foot you'll want to be evenly balanced on top of the one foot. Spin over top of the rail and land with your hips squarely pointing backward. Try not to keep spinning otherwise it'll be hard to hold the trick.</p>
         </div>
         <div class="column">
           <img src="truespin-mizou.gif">
           <h2>Truespin Mizou</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Spin with the rail on your backside (left side if you are right footed, right side if you're left footed) and stretch your front foot out to guide your landing. Think of it like a backside royale, but continue turning your soul foot, and open your stance up, to lock that soul foot in place.</p>
         </div>
         <div class="column">
           <img src="truspin-pornstar.gif">
           <h2>Truespin Pornstar</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Spinning the same was as a true mizou, you'll find this feeling quite different with the back foot turned and crossed the other way. Practice by stalling this one a number of times - but keep in mind that with any spinning tricks they feel much different when moving. When ready to approach with speed, guide with your truespin soul foot and turn entirely backward. At first you'll find it's easier to slap the back crossed foot down after you lock your soul foot.</p>
         </div>
       </div>
 
@@ -413,17 +442,17 @@
         <div class="column">
           <img src="truspin-makio.gif">
           <h2>Truespin Makio</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Once either the truespin mizou or truespin pornstar are comfortable, try this one. You may find it's much safer to attempt since you can use your other foot to safe yourself, but balancing it is much harder. Make sure you have even weight on the toe and heel of your soul foot to hold this one longer.</p>
         </div>
         <div class="column">
           <img src="truspin-soul.gif">
           <h2>Truespin Soul Grind</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Probably one of the harder truespin tricks, you'll need to spin around trust your blind spot. Pay attention to how close you are to the rail for this one. You may find that being closer and cutting down on the angle you'll need to turn makes it much easier. To balance longer try keeping roughly 60% weight on your soul foot and 40% on your back foot.</p>
         </div>
         <div class="column">
           <img src="negative-mistrial.gif">
           <h2>Negative Mistrial</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>If this is your introduction to negative tricks -  you'll be amazed to hear that all the soul tricks above a version on the inside or "negative" part of the boot. I don't do a lot of negative tricks but I find this one to be quite fun and also pretty cool looking. Some find it easier to do this trick the same way they royale to take avantage of the stronger backslide foot. Remember that negatives souls are much smaller so you'll need to lean a bit more to stay on top and balance this one.</p>
         </div>
       </div>
 
@@ -431,12 +460,12 @@
         <div class="column">
           <img src="270-backside-royale.gif">
           <h2>270 Backside Royale</h2>
-          <p>Writeup for trick description coming soon. </p>
+          <p>Spin almost a fully around and land in the backside royale position. You'll find that you can lead with your back foot to place yourself as you're spinning around. The foot foot should follow.</p>
         </div>
         <div class="column">
           <img src="fast-slide.gif">
           <h2>Fast Slide</h2>
-          <p>Writeup for trick description coming soon.</p>
+          <p>A hard trick to balance, but simple to jump on. Most do this with their stronger foot leading. Try to land on top of the rail and balance your one foot evenly on the h-block between your middle wheels. Save yourself by putting down your back foot as you're learning this one. Try lifting your back foot higher to steeze it out for some more style points.</p>
         </div>
         <div class="column">
           <img src="to-do.jpg">
