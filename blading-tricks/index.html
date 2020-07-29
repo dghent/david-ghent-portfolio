@@ -8,9 +8,21 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-90748001-2');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
+});
+</script>
+
 
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -174,7 +186,7 @@
         </div>
         <div class="row">
           <div class="column">
-            <img src="blading-tricks-diagram.jpg" loading="lazy" id="diagram">
+            <div id="diagram"><img src="blading-tricks-diagram.jpg" loading="lazy" id="diagram"></div>
             <h2>Skate Diagram</h2>
             <p>Each part of the skate has a name. The parts labelled here are the main pieces used for grinding and should be a good reference for the description for each trick.</p>
           </div>
@@ -248,7 +260,7 @@
           <div class="column">
             <img src="mistrial.gif" loading="lazy" id="mistrial">
             <h2>Mistrial</h2>
-            <p>The stylish version of the <a href="#mizou">mizou</a> - and only different by leaning the back foot on the <a href="#diagram">backslide plate</a>. This trick looks great if you bend your knees to keep the back foot nice and angeled. Some prefer to do this with the other soul foot to take advantage of a stronger <a href="#backside-backslide">backside backslide</a> foot.</p>
+            <p>The stylish version of the <a href="#mizou">mizou</a> - and only different by leaning the back foot on the <a href="#diagram">backslide plate</a>. This trick looks great if you bend your knees to keep the back foot nice and angeled. Some prefer to do this with the other soul foot to take advantage of a stronger <a href="#backslide">backslide</a> foot.</p>
           </div>
           <div class="column">
             <img src="x-grind.gif" loading="lazy" id="x-grind">
@@ -374,7 +386,7 @@
         <div class="column">
           <img src="alley-oop-backside-unity.gif" loading="lazy" id="alley-oop-backside-unity">
           <h2>Alley-Oop Backside Unity</h2>
-          <p>If you feel comfortable with all the other unity tricks, try this one next. The tough part is wrapping your front foot all the way around your body. Again, take advantage of your dominant foot from either the <a href="#backside-backslide">back backslide</a> (for the front foot) or <a href="#backside-torque">back torque</a> (for the back foot). Also often called a "truespin savannah" or "backside savannah" depending on where you're from.</p>
+          <p>If you feel comfortable with all the other unity tricks, try this one next. The tough part is wrapping your front foot all the way around your body. Again, take advantage of your dominant foot from either the <a href="#backslide">backslide</a> (for the front foot) or <a href="#backside-torque">back torque</a> (for the back foot). Also often called a "truespin savannah" or "backside savannah" depending on where you're from.</p>
         </div>
         <div class="column">
           <img src="kind-grind.gif" loading="lazy" id="kind-grind">
