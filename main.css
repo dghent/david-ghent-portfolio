@@ -143,7 +143,7 @@ body {
 .left-half-width {
   margin-right: 48px;
   width: 50%;
-  /* padding-top: 22px; /*for text alignment*/ */
+  padding-top: 12px; /*for text alignment*/
 }
 
 /* used for narrow image in old HD gif */
